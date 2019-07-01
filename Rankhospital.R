@@ -37,7 +37,6 @@ rankhospital <- function(state, outcome, num = "best") {
                         final[num,1]
                 }
         }
-        
 }
 
 #> source("rankhospital.R")
