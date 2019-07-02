@@ -3,7 +3,7 @@ best <- function(state, outcome) {
         library(tidyverse)
         
         ## Read outcome data
-        data <- read.csv("outcome-of-care-measures.csv", na.strings="Not Available", stringsAsFactors=FALSE)
+        data <- read_csv("outcome-of-care-measures.csv")
         data <- select(data, 
                        Hospital.Name, 
                        State, 
